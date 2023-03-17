@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation in java script</title>
+    <style>
+        .container{
+            text-align: center;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>form validation in java </h1>
+        <a href="registration.html"> go to registration</a>
+        <div class="userform">
+            <form action="" name="userform"  onsubmit="return formvalidate()">
+                <div>
+                    <input type="text" name="name" id="name" placeholder="fullname">
+                    <p id="nameError" class="error"></p>
+                </div>
+                <div>
+                    <input type="username" name="username" id="username" placeholder="username">
+                    <p id="usernameError" class="error"></p>
+                </div>
+                <div>
+                    <input type="text" name="email" id="email" placeholder="email">
+                    <p id="emailError" class="error"></p>
+                </div>
+                <div>
+                    <input type="number" name="number" id="number" placeholder="mobile no">
+                    <p id="number error" class="error"></p>
+                </div>
+                <div>
+                    <input type="password" name="password" id="password" placeholder="password">
+                    <p id="password error" class="error"></p>
+                </div>
+                <div>
+                    <input type="password" name="password" id="confirm password" placeholder="confirm password">
+                    <p id="cnfpwd error" class="error"></p>
+                </div>
+                <div>
+                    <input type="submit" value="sign up">
+                    
+                </div>
+
+
+
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
